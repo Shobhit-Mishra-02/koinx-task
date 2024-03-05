@@ -1,0 +1,113 @@
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.1rem;
+  background-color: white;
+  z-index: 10;
+}
+
+.navbar_logo img {
+  height: auto;
+  width: 8rem;
+}
+
+.navbar_hamburger svg {
+  height: auto;
+  width: 2.5rem;
+}
+
+/* design for navbar options for mobile and desktop view */
+.navbar_options__mobile {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: -10rem;
+  background: white;
+  box-shadow: var(--shadow-md);
+  padding-bottom: 1rem;
+  transition: all ease 0.5s;
+}
+
+.navbar_options__desktop {
+  display: none;
+}
+
+.navbar_options__mobile li,
+.navbar_options__desktop li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.3rem 1rem;
+  color: var(--text-color-primary);
+}
+
+.navbar_options__mobile li > button,
+.navbar_options__desktop li > button {
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar_options__mobile li > button {
+  margin-top: 2rem;
+}
+
+.navbar_options__mobile li > button:hover,
+.navbar_options__desktop li > button:hover {
+  background-color: #1e4bbf;
+}
+
+/* utility clases */
+.show_navbar {
+  top: 77px;
+}
+
+.hide_navbar {
+  top: -10rem;
+}
+
+/* Responsive design  */
+@media (min-width: 780px) {
+  .navbar_container {
+    box-shadow: var(--shadow-md);
+  }
+  .navbar_hamburger {
+    display: none;
+  }
+  .navbar_options__mobile {
+    display: none;
+  }
+  .navbar_container {
+    padding: 1rem 2rem;
+  }
+  .navbar_options__desktop {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar_options__desktop li {
+    padding: 0.3rem 1.5rem;
+  }
+  .navbar_container {
+    padding: 1rem 6rem;
+  }
+  .navbar_options__desktop li > button {
+    margin-left: 1.4rem;
+  }
+}
