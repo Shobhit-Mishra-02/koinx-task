@@ -1,0 +1,131 @@
+.getStartedSection {
+  margin-bottom: 7rem;
+  max-width: 560px;
+}
+
+/* design for first component */
+.getStartedSec_first {
+  width: 100%;
+  border-radius: 6px;
+  background-color: #2563eb;
+}
+
+.getStartedSec_first h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+}
+
+.getStartedSec_first p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  word-spacing: 0.2rem;
+  padding: 0rem 1rem 2rem;
+  line-height: 180%;
+}
+
+.getStartedSec_first__img {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem 2rem;
+}
+
+.getStartedSec_first img {
+  height: auto;
+  width: 18rem;
+  margin: auto;
+}
+
+.getStartedSec_first__btn {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem 2rem;
+}
+
+.getStartedSec_first__btn > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getStartedSec_first__btn > button {
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--text-color-primary);
+  border: none;
+  cursor: pointer;
+}
+
+.getStartedSec_first__btn > button:hover {
+  background-color: #f8f9fa;
+}
+
+.getStartedSec_first__btn > button > span > svg {
+  height: auto;
+  width: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+/* design for second component */
+.getStartedSec_second {
+  margin-top: 1rem;
+  padding: 1rem 0.8rem 1rem;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.getStartedSec_second__heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.getStartedSec_second__coincard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.4rem;
+}
+
+.getStartedSec_second__coincard div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem 0rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.getStartedSec_second__coincard div img {
+  height: auto;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.getStartedSec_second__coincard span svg {
+  height: auto;
+  width: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+.getStartedSec_second__coincard > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 0.4rem 1rem 0.4rem 0.1rem;
+  border-radius: 6px;
+  background-color: #dcfce7;
+  color: #15803d;
+  font-weight: bold;
+}
+
+.getStartedSec_second__coincard > span > span {
+  margin-left: 0.5rem;
+}

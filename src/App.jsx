@@ -1,10 +1,14 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { Navbar, GetStartedSection } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
+
+      <div>
+        <GetStartedSection />
+      </div>
     </>
   );
 }
