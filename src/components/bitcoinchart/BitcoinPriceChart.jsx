@@ -93,6 +93,7 @@ function BitcoinPriceChart() {
         <span className="bitcoin_price__subheading">(24H)</span>
       </div>
       <p className="pricein_rs">39,42,343</p>
+      <TradingViewWidget />
     </div>
   );
 }

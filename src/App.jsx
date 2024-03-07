@@ -4,6 +4,7 @@ import {
   GetStartedSection,
   Team,
   BitcoinPriceChart,
+  About,
 } from "./components";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div className="body_container">
         <div className="body_container__first">
           <BitcoinPriceChart />
+          <About />
           <Team />
         </div>
         <div className="body_container__second">

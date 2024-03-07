@@ -13,9 +13,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -46,4 +45,10 @@ body {
   background-color: white;
   box-shadow: var(--shadow-md);
   margin-bottom: 1rem;
+}
+
+.container_heading {
+  font-size: 1.9rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
