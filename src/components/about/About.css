@@ -1,0 +1,29 @@
+.about_question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color-secondary);
+}
+
+.about_ans {
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.about_subheading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  color: var(--text-color-secondary);
+}
+
+.profile {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 6px;
+  background-color: var(--text-color-tertiary);
+}
