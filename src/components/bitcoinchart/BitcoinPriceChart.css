@@ -1,0 +1,66 @@
+.bitcoinPriceChart {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 2rem;
+  min-height: 500px;
+}
+
+.bitcoin_header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.bitcoin_img img {
+  height: auto;
+  width: 3rem;
+}
+
+.bitcoin_heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bitcoin_subheading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6b7280;
+}
+
+.bitcoin_pill {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background-color: #9ca3af;
+
+  font-size: bold;
+  color: #fff;
+
+  margin-left: 2rem;
+}
+
+.bitcoin_price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.bitcoin_price__curr {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.bitcoin_price__subheading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6b7280;
+}
+
+.pricein_rs {
+  font-size: 1.2rem;
+  font-weight: 500;
+}

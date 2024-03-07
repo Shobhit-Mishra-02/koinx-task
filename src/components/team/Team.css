@@ -1,0 +1,55 @@
+.team_heading {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.team_para {
+  padding-bottom: 2rem;
+}
+
+.team_data__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #dbeafe;
+  margin-bottom: 0.5rem;
+}
+
+.team_data__card_desc {
+  margin-left: 2rem;
+  color: var(--text-color-secondary);
+}
+
+.team_para {
+  line-height: 180%;
+}
+
+.team_data__profile > img {
+  height: auto;
+  width: 15rem;
+  border-radius: 6px;
+}
+
+.team_data__card_info {
+  text-align: center;
+}
+
+.team_data__card_info > h3 {
+  font-weight: bold;
+  color: var(--text-color-secondary);
+}
+
+.team_data__card_info p {
+  color: var(--text-color-tertiary);
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1024px) {
+  .team_data__card {
+    flex-direction: row;
+  }
+}

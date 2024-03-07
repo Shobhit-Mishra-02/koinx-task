@@ -24,3 +24,26 @@ body {
 }
 
 /* utility clases */
+.pill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 0.4rem 1rem 0.4rem 0.1rem;
+  border-radius: 6px;
+  background-color: #dcfce7;
+  color: #15803d;
+  font-weight: bold;
+}
+
+.pill > span {
+  margin-left: 0.5rem;
+}
+
+.container {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 1rem;
+}

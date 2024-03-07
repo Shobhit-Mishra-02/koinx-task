@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import { IoMdMenu } from "react-icons/io";
 import { FiX } from "react-icons/fi";
-import logo from "../../../public/logo.png";
+import logo from "/public/logo.png";
 
 import { useState } from "react";
 

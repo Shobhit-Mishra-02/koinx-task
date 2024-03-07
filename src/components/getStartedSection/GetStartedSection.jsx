@@ -1,4 +1,4 @@
-import girlWithPhone from "../../../public/girl_with_mobile.svg";
+import girlWithPhone from "/public/girl_with_mobile.svg";
 import { GoArrowRight } from "react-icons/go";
 import { IoMdArrowDropup } from "react-icons/io";
 import "./GetStartedSection.css";
